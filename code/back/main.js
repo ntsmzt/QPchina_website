@@ -2,8 +2,8 @@ function eventCard(e){
     return `
     <div class="card">
         <img class="poster" src="${e.image}">
-        <h2 class="event-title">${e.title} <span class="date">(${e.date})</span></h2>
-        <p>${e.summary}</p>
+        <h2 class="event-title">${e.Event_Title} <span class="date">(${e.Event_Date})</span></h2>
+        <p>${e.Event_Summary_for_Web}</p>
         <button type="button">RSVP</button>
         </div>
     `
