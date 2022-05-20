@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #DEDEDE;
+    background-color: #f3e2e9;
     color: #333;
     padding: 20px 0 28px 0;
     margin: 0;
@@ -46,6 +46,20 @@ body {
   .footer {
     font-size: 20px;
     color: #888;
+    text-align: center;
+    margin: 0;
+  }
+
+  .page_pagination {
+    font-size: 20px;
+    color: #888;
+    text-align: center;
+    margin: 0;
+  }
+
+  .pagination_btn {
+    font-size: 15px;
+    color: rgb(19, 17, 17);
     text-align: center;
     margin: 0;
   }
